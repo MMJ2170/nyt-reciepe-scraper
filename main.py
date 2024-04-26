@@ -66,7 +66,7 @@ if __name__ == '__main__':
         count = 0
 
         # keep iteracting all the links, add new lniks to the list as you go 
-        while len(all_links) > 0 and count <= 300:
+        while len(all_links) > 0 and count <= 1000:
             next_link = all_links.pop(0)
             if next_link not in seen_recipes:
                 seen_recipes.append(next_link)
